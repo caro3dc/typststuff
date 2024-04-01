@@ -1,0 +1,126 @@
+/* IF INTER: */
+// #set text(features: ("case", "tnum", "zero", "cv01", "cv02","cv05","cv08","cv12","cv13","cpsp"))
+
+
+	if	(cs	==	red)	{	bg	=	rgb("#FEF2F2");	tc	=	rgb("#450A0A");	ac	=	rgb("#DC2626");	la	=	rgb("#FECACA");	da	=	rgb("#991B1B")	}
+else	if	(cs	==	scarlet)	{	bg	=	rgb("#FFF5F0");	tc	=	rgb("#440F09");	ac	=	rgb("#E33F19");	la	=	rgb("#FED1BA");	da	=	rgb("#9A2817")	}
+else	if	(cs	==	orange)	{	bg	=	rgb("#FFF7ED");	tc	=	rgb("#431407");	ac	=	rgb("#EA580C");	la	=	rgb("#FED7AA");	da	=	rgb("#9A3412")	}
+else	if	(cs	==	amber)	{	bg	=	rgb("#FFFBEB");	tc	=	rgb("#451A03");	ac	=	rgb("#D97706");	la	=	rgb("#FDE68A");	da	=	rgb("#92400E")	}
+else	if	(cs	==	yellow)	{	bg	=	rgb("#FEFCE8");	tc	=	rgb("#422006");	ac	=	rgb("#CA8A04");	la	=	rgb("#FEF08A");	da	=	rgb("#854D0E")	}
+else	if	(cs	==	altyellow)	{	bg	=	rgb("#FEFeE8");	tc	=	rgb("#423006");	ac	=	rgb("#caa204");	la	=	rgb("#fef88a");	da	=	rgb("#85610e")	}
+else	if	(cs	==	pear)	{	bg	=	rgb("#FBFDE8");	tc	=	rgb("#233801");	ac	=	rgb("#989709");	la	=	rgb("#ECF594");	da	=	rgb("#625810")	}
+else	if	(cs	==	lime)	{	bg	=	rgb("#F7FEE7");	tc	=	rgb("#1A2E05");	ac	=	rgb("#65A30D");	la	=	rgb("#D9F99D");	da	=	rgb("#3F6212")	}
+else	if	(cs	==	limegreen)	{	bg	=	rgb("#F5FEEB");	tc	=	rgb("#132E0B");	ac	=	rgb("#4BA321");	la	=	rgb("#CFF8AE");	da	=	rgb("#31631D")	}
+else	if	(cs	==	midgreen)	{	bg	=	rgb("#F4FEEE");	tc	=	rgb("#102E0E");	ac	=	rgb("#43A72E");	la	=	rgb("#CAF8B7");	da	=	rgb("#2B6423")	}
+else	if	(cs	==	pregreen)	{	bg	=	rgb("#F2FDF0");	tc	=	rgb("#0C2E10");	ac	=	rgb("#30A336");	la	=	rgb("#C5F8BF");	da	=	rgb("#246429")	}
+else	if	(cs	==	green)	{	bg	=	rgb("#F0FDF4");	tc	=	rgb("#052E16");	ac	=	rgb("#16A34A");	la	=	rgb("#BBF7D0");	da	=	rgb("#166534")	}
+else	if	(cs	==	postgreen)	{	bg	=	rgb("#EEFDF5");	tc	=	rgb("#042D1C");	ac	=	rgb("#0E9D5A");	la	=	rgb("#B1F5D0");	da	=	rgb("#0E623D")	}
+else	if	(cs	==	emerald)	{	bg	=	rgb("#ECFDF5");	tc	=	rgb("#022C22");	ac	=	rgb("#059669");	la	=	rgb("#A7F3D0");	da	=	rgb("#065F46")	}
+else	if	(cs	==	teal)	{	bg	=	rgb("#F0FDFA");	tc	=	rgb("#042F2E");	ac	=	rgb("#0D9488");	la	=	rgb("#99F6E4");	da	=	rgb("#115E59")	}
+else	if	(cs	==	cyan)	{	bg	=	rgb("#F0FDFA");	tc	=	rgb("#083344");	ac	=	rgb("#0891B2");	la	=	rgb("#A5F3FC");	da	=	rgb("#155E75")	}
+else	if	(cs	==	sky)	{	bg	=	rgb("#F0F9FF");	tc	=	rgb("#082F49");	ac	=	rgb("#0284C7");	la	=	rgb("#BAE6FD");	da	=	rgb("#075985")	}
+else	if	(cs	==	blue)	{	bg	=	rgb("#EFF6FF");	tc	=	rgb("#172554");	ac	=	rgb("#2563EB");	la	=	rgb("#BFDBFE");	da	=	rgb("#1E40AF")	}
+else	if	(cs	==	midblue)	{	bg	=	rgb("#EFF4FF");	tc	=	rgb("#1B2050");	ac	=	rgb("#3A55E8");	la	=	rgb("#C3D7FE");	da	=	rgb("#2B38A9")	}
+else	if	(cs	==	indigo)	{	bg	=	rgb("#EEF2FF");	tc	=	rgb("#1E1B4B");	ac	=	rgb("#4F46E5");	la	=	rgb("#C7D2FE");	da	=	rgb("#3730A3")	}
+else	if	(cs	==	violet)	{	bg	=	rgb("#F5F3FF");	tc	=	rgb("#2E1065");	ac	=	rgb("#7C3AED");	la	=	rgb("#DDD6FE");	da	=	rgb("#5B21B6")	}
+else	if	(cs	==	purple)	{	bg	=	rgb("#FAF5FF");	tc	=	rgb("#3B0764");	ac	=	rgb("#9333EA");	la	=	rgb("#E9D5FF");	da	=	rgb("#6B21A8")	}
+else	if	(cs	==	magenta)	{	bg	=	rgb("#FDF4FF");	tc	=	rgb("#4A044E");	ac	=	rgb("#C026D3");	la	=	rgb("#F5D0FE");	da	=	rgb("#86198F")	}
+else	if	(cs	==	fuschia)	{	bg	=	rgb("#FDF3FC");	tc	=	rgb("#4D0639");	ac	=	rgb("#CE27A5");	la	=	rgb("#F8D0F3");	da	=	rgb("#92186E")	}
+else	if	(cs	==	pink)	{	bg	=	rgb("#FDF2F8");	tc	=	rgb("#500724");	ac	=	rgb("#DB2777");	la	=	rgb("#FBCFE8");	da	=	rgb("#9D174D")	}
+else	if	(cs	==	rose)	{	bg	=	rgb("#FFF1F2");	tc	=	rgb("#4C0519");	ac	=	rgb("#E11D48");	la	=	rgb("#FECDD3");	da	=	rgb("#9F1239")	}
+else	if	(cs	==	warmgrey)	{	bg	=	rgb("#FCFCF8");	tc	=	rgb("#19130D");	ac	=	rgb("#6A6459");	la	=	rgb("#E1DDD8");	da	=	rgb("#352E28")	}
+else	if	(cs	==	white)	{	bg	=	rgb("#ffffff");	tc	=	rgb("#000000");	ac	=	rgb("#525252");	la	=	rgb("#D4D4D4");	da	=	rgb("#262626")	}
+else	if	(cs	==	grey)	{	bg	=	rgb("#FAFAFA");	tc	=	rgb("#0A0A0A");	ac	=	rgb("#525252");	la	=	rgb("#D4D4D4");	da	=	rgb("#262626")	}
+else	if	(cs	==	greengrey)	{	bg	=	rgb("#F9FCF8");	tc	=	rgb("#0D1910");	ac	=	rgb("#596A5B");	la	=	rgb("#DBE1D8");	da	=	rgb("#28352A")	}
+else	if	(cs	==	bluegrey)	{	bg	=	rgb("#F8FAFC");	tc	=	rgb("#020617");	ac	=	rgb("#475569");	la	=	rgb("#CBD5E1");	da	=	rgb("#1E293B")	}
+else	if	(cs	==	brown)	{	bg	=	rgb("#EFEBE9");	tc	=	rgb("#3E2723");	ac	=	rgb("#795548");	la	=	rgb("#CCB7B0");	da	=	rgb("#4E342E")	}
+else	if	(cs	==	pine)	{	bg	=	rgb("#EFEBE9");	tc	=	rgb("#17312B");	ac	=	rgb("#478D6A");	la	=	rgb("#CFDFC9");	da	=	rgb("#225443")	}
+else	if	(cs	==	bluepine)	{	bg	=	rgb("#EFEBE9");	tc	=	rgb("#272a3c");	ac	=	rgb("#6e78b2");	la	=	rgb("#d3d8f0");	da	=	rgb("#40466b")	}
+else	if	(cs	==	redpine)	{	bg	=	rgb("#EFEBE9");	tc	=	rgb("#311010");	ac	=	rgb("#963D44");	la	=	rgb("#E2B6BA");	da	=	rgb("#611E1E")	}
+else	if	(cs	==	orangepine)	{	bg	=	rgb("#EFEBE9");	tc	=	rgb("#361409");	ac	=	rgb("#a84a1b");	la	=	rgb("#f5bca4");	da	=	rgb("#682c10")	}
+else	if	(cs	==	copper)	{	bg	=	rgb("#FAF2F0");	tc	=	rgb("#27120E");	ac	=	rgb("#9D4A39");	la	=	rgb("#E5BFB8");	da	=	rgb("#5A2A20")	}
+else	if	(cs	==	gold)	{	bg	=	rgb("#F6F1E2");	tc	=	rgb("#2C200E");	ac	=	rgb("#A68036");	la	=	rgb("#E5D7AE");	da	=	rgb("#60481F")	}
+else	if	(cs	==	rosegold)	{	bg	=	rgb("#FAF3F0");	tc	=	rgb("#280D1E");	ac	=	rgb("#A23452");	la	=	rgb("#E7BDB6");	da	=	rgb("#5C1E3B")	}
+else	if	(cs	==	herald)	{	bg	=	rgb("#f8ece1");	tc	=	rgb("#353542");	ac	=	rgb("#355eb4");	la	=	rgb("#eac879");	da	=	rgb("#7f1e33")	}
+else	if	(cs	==	sti)	{	bg	=	rgb("#FDFDFD");	tc	=	rgb("#00074E");	ac	=	rgb("#CA8D3C");	la	=	rgb("#F5DE80");	da	=	rgb("#09398B")	}
+else	if	(cs	==	rosépine-dawn)	{	bg	=	rgb("#faf4ed");	tc	=	rgb("#232136");	ac	=	rgb("#d7827e");	la	=	rgb("#ebbcba");	da	=	rgb("#286983")	}
+else	if	(cs	==	aroallo)	{	bg	=	rgb("#F5FAED");	tc	=	rgb("#11572C");	ac	=	rgb("#D17F14");	la	=	rgb("#F0D854");	da	=	rgb("#4B8624")	}
+else	if	(cs	==	aro)	{	bg	=	rgb("#F5FAED");	tc	=	rgb("#252525");	ac	=	rgb("#4B8624");	la	=	rgb("#C9C9C9");	da	=	rgb("#11572C")	}
+else	if	(cs	==	aroace)	{	bg	=	rgb("#F5FAED");	tc	=	rgb("#431407");	ac	=	rgb("#D97706");	la	=	rgb("#A5F3FC");	da	=	rgb("#0369A1")	}
+else	if	(cs	==	bi)	{	bg	=	rgb("#FDF2F8");	tc	=	rgb("#1E1B4B");	ac	=	rgb("#9C26B4");	la	=	rgb("#FBCFE8");	da	=	rgb("#3730A3")	}
+else	if	(cs	==	defgreen)	{	bg	=	rgb("#F6F8F1");	tc	=	rgb("#0E0E25");	ac	=	rgb("#288F56");	la	=	rgb("#B4F2B9");	da	=	rgb("#38378F")	}
+else	if	(cs	==	uc)	{	bg	=	rgb("#F8FCFA");	tc	=	rgb("#001812");	ac	=	rgb("#059669");	la	=	rgb("#A7F3D0");	da	=	rgb("#065F46")	}
+else	if	(cs	==	solarised-l)	{	bg	=	rgb("#fdf6e3");	tc	=	rgb("#002b36");	ac	=	rgb("#2aa198");	la	=	rgb("#C1C5BB");	da	=	rgb("#206492")	}
+else	if	(cs	==	nord-light)	{	bg	=	rgb("#ECEFF4");	tc	=	rgb("#2E3440");	ac	=	rgb("#88C0D0");	la	=	rgb("#D8DEE9");	da	=	rgb("#4C566A")	}
+else	if	(cs	==	default)	{	bg	=	rgb("#F8F4F1");	tc	=	rgb("#0E0E25");	ac	=	rgb("#D35C84");	la	=	rgb("#b4bdf2");	da	=	rgb("#38378F")	}
+else	if	(cs	==	altdark)	{	bg	=	rgb("#272736");	tc	=	rgb("#f8ece1");	ac	=	rgb("#a9a8ee");	la	=	rgb("#484764");	da	=	rgb("#C8BCA1")	}
+else	if	(cs	==	dark)	{	bg	=	rgb("#1E1E2A");	tc	=	rgb("#F7EFE7");	ac	=	rgb("#d66087");	la	=	rgb("#363575");	da	=	rgb("#949dec")	}
+else	if	(cs	==	ocean)	{	bg	=	rgb("#0b0c13");	tc	=	rgb("#E6EAFC");	ac	=	rgb("#6D5CFF");	la	=	rgb("#393182");	da	=	rgb("#9FA5CB")	}
+else	if	(cs	==	bluewood)	{	bg	=	rgb("#171729");	tc	=	rgb("#ffffff");	ac	=	rgb("#6f90dc");	la	=	rgb("#354ba5");	da	=	rgb("#aecde9")	}
+else	if	(cs	==	darker)	{	bg	=	rgb("#111114");	tc	=	rgb("#f8f5f2");	ac	=	rgb("#d66087");	la	=	rgb("#363575");	da	=	rgb("#94aaec")	}
+else	if	(cs	==	rosépine)	{	bg	=	rgb("#191724");	tc	=	rgb("#e0def4");	ac	=	rgb("#9ccfd8");	la	=	rgb("#403d52");	da	=	rgb("#ebbcba")	}
+else	if	(cs	==	rosépine-moon)	{	bg	=	rgb("#232136");	tc	=	rgb("#e0def4");	ac	=	rgb("#9ccfd8");	la	=	rgb("#44415a");	da	=	rgb("#ea9a97")	}
+else	if	(cs	==	solarised-d)	{	bg	=	rgb("#002b36");	tc	=	rgb("#fdf6e3");	ac	=	rgb("#2aa198");	la	=	rgb("#206492");	da	=	rgb("#C1C5BB")	}
+else	if	(cs	==	nord-dark)	{	bg	=	rgb("#2E3440");	tc	=	rgb("#ECEFF4");	ac	=	rgb("#88C0D0");	la	=	rgb("#4C566A");	da	=	rgb("#D8DEE9")	}
+
+
+show <red>: set text(fill: rgb("#DC2626")); show <red-la>: set text(fill:rgb("#FECACA"));
+show <scarlet>: set text(fill: rgb("#E33F19")); show <scarlet-la>: set text(fill:rgb("#FED1BA"));
+show <orange>: set text(fill: rgb("#EA580C")); show <orange-la>: set text(fill:rgb("#FED7AA"));
+show <amber>: set text(fill: rgb("#D97706")); show <amber-la>: set text(fill:rgb("#FDE68A"));
+show <yellow>: set text(fill: rgb("#CA8A04")); show <yellow-la>: set text(fill:rgb("#FEF08A"));
+show <altyellow>: set text(fill: rgb("#caa204")); show <altyellow-la>: set text(fill:rgb("#fef88a"));
+show <pear>: set text(fill: rgb("#989709")); show <pear-la>: set text(fill:rgb("#ECF594"));
+show <lime>: set text(fill: rgb("#65A30D")); show <lime-la>: set text(fill:rgb("#D9F99D"));
+show <limegreen>: set text(fill: rgb("#4BA321")); show <limegreen-la>: set text(fill:rgb("#CFF8AE"));
+show <midgreen>: set text(fill: rgb("#43A72E")); show <midgreen-la>: set text(fill:rgb("#CAF8B7"));
+show <pregreen>: set text(fill: rgb("#30A336")); show <pregreen-la>: set text(fill:rgb("#C5F8BF"));
+show <green>: set text(fill: rgb("#16A34A")); show <green-la>: set text(fill:rgb("#BBF7D0"));
+show <postgreen>: set text(fill: rgb("#0E9D5A")); show <postgreen-la>: set text(fill:rgb("#B1F5D0"));
+show <emerald>: set text(fill: rgb("#059669")); show <emerald-la>: set text(fill:rgb("#A7F3D0"));
+show <teal>: set text(fill: rgb("#0D9488")); show <teal-la>: set text(fill:rgb("#99F6E4"));
+show <cyan>: set text(fill: rgb("#0891B2")); show <cyan-la>: set text(fill:rgb("#A5F3FC"));
+show <sky>: set text(fill: rgb("#0284C7")); show <sky-la>: set text(fill:rgb("#BAE6FD"));
+show <blue>: set text(fill: rgb("#2563EB")); show <blue-la>: set text(fill:rgb("#BFDBFE"));
+show <midblue>: set text(fill: rgb("#3A55E8")); show <midblue-la>: set text(fill:rgb("#C3D7FE"));
+show <indigo>: set text(fill: rgb("#4F46E5")); show <indigo-la>: set text(fill:rgb("#C7D2FE"));
+show <violet>: set text(fill: rgb("#7C3AED")); show <violet-la>: set text(fill:rgb("#DDD6FE"));
+show <purple>: set text(fill: rgb("#9333EA")); show <purple-la>: set text(fill:rgb("#E9D5FF"));
+show <magenta>: set text(fill: rgb("#C026D3")); show <magenta-la>: set text(fill:rgb("#F5D0FE"));
+show <fuschia>: set text(fill: rgb("#CE27A5")); show <fuschia-la>: set text(fill:rgb("#F8D0F3"));
+show <pink>: set text(fill: rgb("#DB2777")); show <pink-la>: set text(fill:rgb("#FBCFE8"));
+show <rose>: set text(fill: rgb("#E11D48")); show <rose-la>: set text(fill:rgb("#FECDD3"));
+show <warmgrey>: set text(fill: rgb("#6A6459")); show <warmgrey-la>: set text(fill:rgb("#E1DDD8"));
+show <white>: set text(fill: rgb("#525252")); show <white-la>: set text(fill:rgb("#D4D4D4"));
+show <grey>: set text(fill: rgb("#525252")); show <grey-la>: set text(fill:rgb("#D4D4D4"));
+show <greengrey>: set text(fill: rgb("#596A5B")); show <greengrey-la>: set text(fill:rgb("#DBE1D8"));
+show <bluegrey>: set text(fill: rgb("#475569")); show <bluegrey-la>: set text(fill:rgb("#CBD5E1"));
+show <brown>: set text(fill: rgb("#795548")); show <brown-la>: set text(fill:rgb("#CCB7B0"));
+show <pine>: set text(fill: rgb("#478D6A")); show <pine-la>: set text(fill:rgb("#CFDFC9"));
+show <bluepine>: set text(fill: rgb("#6e78b2")); show <bluepine-la>: set text(fill:rgb("#d3d8f0"));
+show <redpine>: set text(fill: rgb("#963D44")); show <redpine-la>: set text(fill:rgb("#E2B6BA"));
+show <orangepine>: set text(fill: rgb("#a84a1b")); show <orangepine-la>: set text(fill:rgb("#f5bca4"));
+show <copper>: set text(fill: rgb("#9D4A39")); show <copper-la>: set text(fill:rgb("#E5BFB8"));
+show <gold>: set text(fill: rgb("#A68036")); show <gold-la>: set text(fill:rgb("#E5D7AE"));
+show <rosegold>: set text(fill: rgb("#A23452")); show <rosegold-la>: set text(fill:rgb("#E7BDB6"));
+show <herald>: set text(fill: rgb("#355eb4")); show <herald-la>: set text(fill:rgb("#eac879"));
+show <sti>: set text(fill: rgb("#CA8D3C")); show <sti-la>: set text(fill:rgb("#F5DE80"));
+show <rosépine-dawn>: set text(fill: rgb("#d7827e")); show <rosépine-dawn-la>: set text(fill:rgb("#ebbcba"));
+show <aroallo>: set text(fill: rgb("#D17F14")); show <aroallo-la>: set text(fill:rgb("#F0D854"));
+show <aro>: set text(fill: rgb("#4B8624")); show <aro-la>: set text(fill:rgb("#C9C9C9"));
+show <aroace>: set text(fill: rgb("#D97706")); show <aroace-la>: set text(fill:rgb("#A5F3FC"));
+show <bi>: set text(fill: rgb("#9C26B4")); show <bi-la>: set text(fill:rgb("#FBCFE8"));
+show <defgreen>: set text(fill: rgb("#288F56")); show <defgreen-la>: set text(fill:rgb("#B4F2B9"));
+show <uc>: set text(fill: rgb("#059669")); show <uc-la>: set text(fill:rgb("#A7F3D0"));
+show <solarised-l>: set text(fill: rgb("#2aa198")); show <solarised-l-la>: set text(fill:rgb("#C1C5BB"));
+show <nord-light>: set text(fill: rgb("#88C0D0")); show <nord-light-la>: set text(fill:rgb("#D8DEE9"));
+show <default>: set text(fill: rgb("#D35C84")); show <default-la>: set text(fill:rgb("#b4bdf2"));
+show <altdark>: set text(fill: rgb("#a9a8ee")); show <altdark-la>: set text(fill:rgb("#484764"));
+show <dark>: set text(fill: rgb("#d66087")); show <dark-la>: set text(fill:rgb("#363575"));
+show <ocean>: set text(fill: rgb("#6D5CFF")); show <ocean-la>: set text(fill:rgb("#393182"));
+show <bluewood>: set text(fill: rgb("#6f90dc")); show <bluewood-la>: set text(fill:rgb("#354ba5"));
+show <darker>: set text(fill: rgb("#d66087")); show <darker-la>: set text(fill:rgb("#363575"));
+show <rosépine>: set text(fill: rgb("#9ccfd8")); show <rosépine-la>: set text(fill:rgb("#403d52"));
+show <rosépine-moon>: set text(fill: rgb("#9ccfd8")); show <rosépine-moon-la>: set text(fill:rgb("#44415a"));
+show <solarised-d>: set text(fill: rgb("#2aa198")); show <solarised-d-la>: set text(fill:rgb("#206492"));
+show <nord-dark>: set text(fill: rgb("#88C0D0")); show <nord-dark-la>: set text(fill:rgb("#4C566A"));
